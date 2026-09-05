@@ -96,23 +96,9 @@
             require-prior-idle-ms = <150>;
         };
 
-        combo_enter {
-            bindings = <&kp RET>;
-            key-positions = <32 33>;        // K + L
-            timeout-ms = <30>;
-            require-prior-idle-ms = <150>;
-        };
-
         combo_copy {
             bindings = <&kp LG(C)>;
             key-positions = <38 39>;        // X + C
-            timeout-ms = <30>;
-            require-prior-idle-ms = <150>;
-        };
-
-        combo_paste {
-            bindings = <&kp LG(V)>;
-            key-positions = <39 40>;        // C + V
             timeout-ms = <30>;
             require-prior-idle-ms = <150>;
         };
