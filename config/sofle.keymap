@@ -89,13 +89,6 @@
 
         // -- Tier 2: High Value --
 
-        combo_tab {
-            bindings = <&kp TAB>;
-            key-positions = <26 27>;        // S + D
-            timeout-ms = <30>;
-            require-prior-idle-ms = <150>;
-        };
-
         combo_copy {
             bindings = <&kp LG(C)>;
             key-positions = <38 39>;        // X + C
