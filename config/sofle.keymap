@@ -89,6 +89,8 @@
 
         // -- Tier 2: High Value --
 
+        // S + D intentionally has no combo; both keys should type normally.
+
         combo_copy {
             bindings = <&kp LG(C)>;
             key-positions = <38 39>;        // X + C
